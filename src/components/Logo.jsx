@@ -8,7 +8,7 @@ const Logo = () => {
     ? 'https://calpesocorporal.vercel.app/logo.jpeg'
     : '/src/assets/logo.jpeg'; */
 
-  return <img src={logo1} alt="Logo" className="h-8" />;
+  return <img src={logo1} alt="Logo" className="h-16" />;
 };
 
 export default Logo;
