@@ -16,12 +16,16 @@ function App() {
         </div>
         <ul className="flex space-x-4">
           <li>
-            <Link to="/" className="text-blue-500 hover:text-blue-800">
+            <Link to="/" 
+             className="text-white font-semibold bg-blue-500  border-blue-600 hover:bg-blue-800 hover:border-blue-700 py-1 px-5 rounded-full shadow-lg transition-colors duration-300 ease-in-out"
+             >
               Inicio
             </Link>
           </li>
           <li>
-            <Link to="/calculadora" className="text-blue-500 hover:text-blue-800">
+            <Link to="/calculadora" 
+             className="text-white font-semibold bg-blue-500  border-blue-600 hover:bg-blue-800 hover:border-blue-700 py-1 px-5 rounded-full shadow-lg transition-colors duration-300 ease-in-out"
+            >
               Calculadora
             </Link>
           </li>
