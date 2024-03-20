@@ -40,11 +40,8 @@ const CalculadoraMasaCorporal = () => {
   };
 
   const handleAlturaChange = (value) => {
-    const alturaLimpia = value.replace(/[^0-9.,]/g, '');
-  
-    const alturaConPunto = alturaLimpia.replace(',', '.');
-  
-    const alturaCentimetros = parseFloat(alturaConPunto) * 100;
+        
+    const alturaCentimetros = Math.round(parseFloat(value));
   
     setAltura(alturaCentimetros);
   };
